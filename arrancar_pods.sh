@@ -1,4 +1,4 @@
-echo " 3er paso - OSM "
+echo " 1er paso - OSM "
 osm repo-add --type helm-chart helmchartrepo https://john-josue-123.github.io/rdsv_final
 osm nfpkg-create ./shared/rdsv_final/pck/accessknf_vnfd.tar.gz
 osm nfpkg-create ./shared/rdsv_final/pck/cpeknf_vnfd.tar.gz
@@ -7,7 +7,7 @@ osm nspkg-create ./shared/rdsv_final/pck/renes_ns.tar.gz
 
 echo "-----------"
 echo "-----------"
-echo "4to paso - Arrancando los PODs"
+echo "2do paso - Arrancando los PODs"
 echo "-----------"
 export OSMNS=7b2950d8-f92b-4041-9a55-8d1837ad7b0a
 export NSID1=$(osm ns-create --ns_name renes1 --nsd_name renes --vim_account dummy_vim)
