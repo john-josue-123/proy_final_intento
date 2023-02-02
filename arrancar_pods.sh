@@ -28,7 +28,7 @@ echo $NSID1
 echo "NSID2 :"
 echo $NSID2
 
-sleep 30
+sleep 20
 
 echo "#Los nombres de los PODs son : "
 ACCPOD=$(kubectl -n $OSMNS get pods --no-headers -o custom-columns=":metadata.name" | grep access)
