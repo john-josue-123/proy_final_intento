@@ -109,5 +109,5 @@ $CPE_EXEC /etc/init.d/arpwatch start
 $CPE_EXEC arpwatch -i net1
 
 
-./qos.sh
+./QoS.sh
 
