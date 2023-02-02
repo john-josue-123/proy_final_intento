@@ -17,3 +17,6 @@ ssh -l upm 192.168.56.11 "sudo vnx -f /home/upm/shared/rdsv_final/vnx/nfv3_serve
 ssh -l upm 192.168.56.11 "xhost +"
 
 echo "----------------------------"
+
+echo " Se procedera a ejecutar el proceso de arrancando de PODs"
+ssh -l upm 192.168.56.12 "sh /home/upm/shared/rdsv_final/arrancar_pods.sh"
