@@ -3,23 +3,23 @@ entries:
   accesschart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-02T19:44:34.572392899+01:00"
+    created: "2023-02-03T08:35:15.049513646+01:00"
     description: A Helm chart for Kubernetes
-    digest: 1735308610c865308cec0682732c2243f0a38a7ee6a4e883a35b12a3a6fed5c7
+    digest: d38459b84227af8da13d6fea0b5ec8987a03d860422a9191c3d23a6f5388deb9
     name: accesschart
     type: application
     urls:
-    - https://cuenta-git.github.io/repo-rdsv/accesschart-0.1.0.tgz
+    - https://john-josue-123.github.io/rdsv_final/accesschart-0.1.0.tgz
     version: 0.1.0
   cpechart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-02T19:44:34.574146174+01:00"
+    created: "2023-02-03T08:35:15.051488032+01:00"
     description: A Helm chart for Kubernetes
-    digest: 678ee68b1a4c19a855ef3c27d520e22a8ef99215c2d73339ec1bbdda0c79e2ed
+    digest: 07557136f805557fdc73cce362fd96ffecf8659644a2fecadbf9a98cd7294277
     name: cpechart
     type: application
     urls:
-    - https://cuenta-git.github.io/repo-rdsv/cpechart-0.1.0.tgz
+    - https://john-josue-123.github.io/rdsv_final/cpechart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-02T19:44:34.568885582+01:00"
+generated: "2023-02-03T08:35:15.047203678+01:00"
